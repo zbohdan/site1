@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My-hint</title>
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400" rel="stylesheet"> 
+	<link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+	<header class="container">
+		<h1>Grid & Flexbox</h1>
+	</header>
+	<section class="container2">
+		<h2>Grid <span class="subs">- flexible 2 rows grid </span></h2>
+		<h3>Code and some result</h3>
+		<div class="container-grid-outer">
+			<div class="code-css">
+				<span class="class"><span class="class2">.container</span> {</span></br>
+				<span><span class="prop-num">display:</span> grid;</span></br>
+				<span><span class="prop-num">grid-template-columns:</span> 1fr 1fr;</br>
+				<span><span class="prop-num">grid-auto-rows:</span> <span class="func">minmax</span>(<span class="num">40</span>px, auto);</span></br>
+				<span><span class="prop-num">grid-gap:</span> 0 20px;</span></br>
+				<span class="class">}</span>
+			</div>
+			<div class="container-grid-2rows">
+				<div class="item">Block 1</div>
+				<div class="item">Block 2</div>
+				<div class="item">Block 3</div>
+				<div class="item">Block 4</div>
+				<div class="item">Block 5</div>
+			</div>
+		</div>
+	</section>
+	<section class="container">
+		<h2>Grid <span class="subs">- self adapt grid </span></h2>
+		<h3>Code and some result second</h3>
+		<div class="container-grid-outer">
+			<div class="code-css">
+				<span class="class"><span class="class2">.container</span> {</span></br>
+				<span><span class="prop-num">display:</span> grid;</span></br>
+				<span><span class="prop-num">grid-template-columns:</span> <span class="func">repeat</span>(auto-fill, <span class="func">minmax</span>(200px, 1fr));</span></br>
+				<span><span class="prop-num">grid-auto-rows:</span> <span class="func">minmax</span>(<span class="num">40</span>px, auto);</span></br>
+				<span><span class="prop-num">grid-gap:</span> 0 20px;</span></br>
+				<span class="class">}</span>
+			</div>
+			<div class="container-grid-adapt-200px-col">
+				<div class="item">Block 1</div>
+				<div class="item">Block 2</div>
+				<div class="item">Block 3</div>
+				<div class="item">Block 4</div>
+				<div class="item">Block 5</div>
+			</div>
+		</div>
+
+	</section>
+<!-- 	<div class="container">
+	  <div>One</div>
+	  <div>Two</div>
+	  <div>Three</div>
+	  <div>Four</div>
+	  <div>Five</div>
+	  <div>Six</div>
+	  <div>Seven</div>
+	</div>
+ -->
+
+</body>
+</html>
