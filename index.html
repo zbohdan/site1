@@ -9,12 +9,16 @@
 
 </head>
 <body>
+	<!-- HEADER -->
 	<header class="container">
 		<h1>Grid & Flexbox</h1>
 	</header>
+	<!-- GRID FLEXIBLE 2 ROWS -->
 	<section class="container2">
-		<h2>Grid <span class="subs">- flexible 2 rows grid </span></h2>
-		<h3>Code and some result</h3>
+		<!-- <div class="heading"> -->
+			<h2>Grid <span class="subs">- flexible 2 rows grid </span></h2>
+			<h3>Code and some result</h3>
+		<!-- </div> -->
 		<div class="container-grid-outer">
 			<div class="code-css">
 				<span class="class"><span class="class2">.container</span> {</span></br>
@@ -33,6 +37,7 @@
 			</div>
 		</div>
 	</section>
+	<!-- GRID SELF ADAPT -->
 	<section class="container">
 		<h2>Grid <span class="subs">- self adapt grid </span></h2>
 		<h3>Code and some result second</h3>
@@ -51,6 +56,32 @@
 				<div class="item">Block 3</div>
 				<div class="item">Block 4</div>
 				<div class="item">Block 5</div>
+			</div>
+		</div>
+	</section>
+	<!-- GRID FIXED POSITION -->
+	<section class="container2">
+		<h2>Grid <span class="subs">- fixed pos grid </span></h2>
+		<h3>Code and some result second</h3>
+		<div class="container-grid-outer">
+			<div class="code-css">
+				<span class="class"><span class="class2">.container</span> {</span></br>
+				<span><span class="prop-num">display:</span> grid;</span></br>
+				<span><span class="prop-num">grid-template-columns:</span> <span class="func">repeat</span>(3, 1fr);</span></br>
+				<span><span class="prop-num">grid-auto-rows:</span> <span class="func">minmax</span>(<span class="num">40</span>px, auto);</span></br>
+				<span><span class="prop-num">grid-gap:</span> 0 20px;</span></br>
+				<span class="class">}</span><br>
+				(span.class>span.class2{.block$}+{ n}^br)*7							
+			</div>
+			<div class="container-grid-fixed-position">
+				<div class="item item1">Block 1</div>
+				<div class="item item2">Block 2</div>
+				<div class="item item3">Block 3</div>
+				<div class="item item4">Block 4</div>
+				<div class="item item5">Block 5</div>
+				<div class="item item6">Block 6</div>
+				<div class="item item7">Block 7</div>
+				<!-- <div class="item item8">Block 8</div> -->
 			</div>
 		</div>
 
