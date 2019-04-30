@@ -216,7 +216,7 @@ a {
 }
 @media all and (max-width: 600px) {
   .container {
-  width: auto;
+  width: 50%;
   margin: 0 auto;
 }
 /*.container-grid {
