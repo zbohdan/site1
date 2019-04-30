@@ -222,8 +222,12 @@ a {
 }
 @media all and (max-width: 600px) {
   .container {
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
+}
+
+.container-grid-adapt-200px-col {
+	grid-template-columns: 1fr 1fr;
 }
 /*.container-grid {
     display: grid;
