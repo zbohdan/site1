@@ -96,10 +96,15 @@ a {
 .container {
   width: 90%;
   margin: 0 auto;
+  border: 1px solid black;
+  box-sizing: border-box;
 }
 .container2 {
   width: 90%;
   margin: 20px auto 20px;
+  border: 1px solid red;
+  box-sizing: border-box;
+
 }
 .container-grid-outer {
     display: grid;
