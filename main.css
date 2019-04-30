@@ -78,7 +78,7 @@ html {
   font-size: 18px;
 }
 header {
-  position: -webkit-sticky;
+/*   position: -webkit-sticky; */
   position: sticky;
 /*   margin-top: 0;
   padding-top: 0; */
