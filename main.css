@@ -196,7 +196,7 @@ a {
 }
 .item {
   color: #2f409f;
-  background: rgb(162,175,249, 0.5);
+  background: rgba(162,175,249, 0.5);
   border: 1px solid #6176e7;
   border-radius: 7px;
   text-align: center;
